@@ -11,7 +11,7 @@
        
         $(function() {
 
-            $("#filter").click(function() {
+            $(".filter").click(function() {
                 $("#filterMenuWindow").show();
             });
                     

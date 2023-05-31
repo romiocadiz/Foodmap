@@ -31,10 +31,11 @@ span {
   overflow: hidden;
 }
 
-.filter{
+.filter button{
  position: fixed;
  bottom: 5%;
  right: 5%;
+ 
 }
 
 .filterBackground{
