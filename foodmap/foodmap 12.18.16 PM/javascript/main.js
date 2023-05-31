@@ -9,6 +9,23 @@
     //there also needs to be an x on the input form to let user exit when clicked
         //put x in top left corner 
 
+$(function() {
+
+    $("#filterMenuButton").click(function() {
+        $("#filterMenuWindow").show();
+    });
+            
+    $("#exitButton").click(function() {
+        $("#filterMenuWindow").hide();
+    });
+        
+    $("#formSubmitButton").click(function() {
+        var searchTerm = $("#searchBox").val();
+        console.log(searchTerm);
+});
+            
+});
+
 //create function that shows description of places
     //content consists of name of place, hours, dining schedule, link to see full menu
         //link will redirect user to another page for full menu: 
