@@ -31,13 +31,20 @@ span {
   overflow: hidden;
 }
 
-.filter {
-  width: 48px;
-  height: 28px;
+.filter{
+ position: fixed;
+ bottom: 5%;
+ right: 5%;
+}
+
+.filterBackground{
   position: absolute;
-  right: 50px;
-  bottom: -1040px;
-  overflow: hidden;
+width: 431px;
+height: 546px;
+left: 1049px;
+top: 436px;
+background: #8FC67C;
+border-radius: 10px 10px 0px 0px;
 }
 
 .locations{
