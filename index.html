@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script type="text/javascript" src="./javascript/main.js" DEFER></script>
+    <title>UCSC Food Map</title>
+</head>
+<body>
+    <div class="content">
+        <div class="title"></div><span>UCSC Food Map</span>
+        <div class="base">
+        </div>
+        <div class="f">
+            <button class="filter" type="png">
+                <img src="../foodmap 12.18.16 PM/images/filter-icon.png" alt="filter-button">
+              </button>
+              <span id="filterMenuWindow" style="display:none;">
+                <form>
+    
+                <p>
+                    <button type="button" id="exitButton">X</button>
+                </p>
+    
+                <p>
+                    <input type="text" id="searchBox" name="searchBox" placeholder="Search">
+                </p>
+    
+                <div>
+                    <h2>Sort By</h2>
+    
+                    <input type="checkbox" id="sortByOption1" name="sortByOption1">
+                    <label for="sortByOption1">Distance</label>
+    
+                    <p>
+                    <input type="checkbox" id="sortByOption2" name="sortByOption2">
+                    <label for="sortByOption2">Popularity</label>
+                    </p>
+    
+                    <p>
+                    <input type="checkbox" id="sortByOption3" name="sortByOption3">
+                    <label for="sortByOption3">Rating</label>
+                    </p>
+    
+                    <h2>Type of Places</h2>
+    
+                    <input type="checkbox" id="typeOfPlaceOption1" name="typeOfPlaceOption1">
+                    <label for="typeOfPlaceOption1">Cafes</label>
+    
+                    <p>
+                    <input type="checkbox" id="typeOfPlaceOption2" name="typeOfPlaceOption2">
+                    <label for="typeOfPlaceOption2">Dining Halls</label>
+                    </p>
+    
+                    <p>
+                    <input type="checkbox" id="typeOfPlaceOption3" name="typeOfPlaceOption3">
+                    <label for="typeOfPlaceOption3">Food Trucks</label>
+                    </p>
+    
+                    <p>
+                    <input type="checkbox" id="typeOfPlaceOption4" name="typeOfPlaceOption4">
+                    <label for="typeOfPlaceOption4">Markets</label>
+                    </p>
+    
+                    <button type="button" id="formSubmitButton">Apply</button>
+                </div>
+    
+                </form>
+            </span>    
+        </div>
+        <div class="locations">
+            <div class="alebrijes">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/alebrijes.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="bakery">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/bakery.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="oakes-cafe">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/oakes-cafe.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="c10-dhall">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/c10-dhall.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="perks1">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/cafe.png" alt="cafepng">
+                  </button>
+            </div>
+            <div class="perks2">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/cafe.png" alt="cafepng">
+                  </button>
+            </div>
+            <div class="perks3">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/cafe.png" alt="cafepng">
+                  </button>
+            </div>
+            <div class="global-cafe">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/cafe.png" alt="cafepng">
+                  </button>
+            </div>
+            <div class="coffee">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/coffee.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="cowell-dhall">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/cowell-dhall.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="crown-dhall">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/crown-dhall.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="merrill-market">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/merrill-market.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="porter-market">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/porter-market.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="porter-dhall">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/porter-dhall.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="pupusa">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/pupusa.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="snb">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/snb.png" alt="buttonpng">
+                  </button>
+            </div>
+            <div class="togos">
+                <button class="grow" type="png">
+                    <img src="../foodmap 12.18.16 PM/images/togos.png" alt="buttonpng">
+                  </button>
+                  
+        </div>
+        <div id="descriptionContainer"></div> <!-- (For original code) This line was added by Tony Pau as its needed in index.html for javascrript to output the description -->
+    </div>
+</body>
+
+</html>
