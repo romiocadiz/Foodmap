@@ -1,294 +1,363 @@
 body {
-  width: auto;
-  height: fit-content;
-  background: #549752;
-  opacity: 1;
-  position: sticky;
-  overflow: hidden;
-}
-
-span {
-  width: 545px;
-  color: #ffe486;
-  position: sticky;
-  left: 840px;
-  font-family: Fascinate Inline;
-  font-weight: Regular;
-  font-size: 70px;
-  text-align: center;
-}
-
-.base {
-  width: 100%;
-  height: 1100px;
-  background: url("../images/base.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+    width: auto;
+    height: auto;
+    background: #549752;
+    opacity: 1;
+    position: sticky;
+    overflow: hidden;
+  }
+  
+  span {
+    width: 545px;
+    color: #ffe486;
+    position: sticky;
+    left: 840px;
+    font-family: Fascinate Inline;
+    font-weight: Regular;
+    font-size: 70px;
+    text-align: center;
+  }
+  
+  .base {
+    width: 100%;
+    height: 1100px;
+    background: url("../images/base.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 80px;
+    transform: rotate(-5deg);
+    overflow: hidden;
+  }
+  
+  .filterButton {
+   position: fixed;
+   bottom: 5%;
+   right: 5%;
+  }
+  
+  .filterBackground{
   position: absolute;
-  top: 80px;
-  transform: rotate(-5deg);
+  width: 431px;
+  height: 546px;
+  left: 1049px;
+  top: 436px;
+  background: #8FC67C;
+  border-radius: 10px 10px 0px 0px;
+  }
+  
+  .locations{
+    min-width: 2500px;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    overflow: hidden;
+  }
+  
+    .mapicons img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+  } 
+
+  .alebrijes {
+    width: 140px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: fixed;
+    top: 60%;
+    left: 55%;
+    overflow: hidden;
+  }
+  
+  .bakery {
+    width: 130px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    overflow: hidden;
+  }
+  
+  .oakes-cafe {
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 69%;
+    left: 40%;
+    overflow: hidden;
+  }
+  
+  .c10-dhall {
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 12%;
+    left: 62%;
+    overflow: hidden;
+  }
+  
+  .global-cafe {
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 54%;
+    left: 48%;
+    overflow: hidden;
+  }
+  
+  .coffee {
+    width: 150px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 38%;
+    left: 63%;
+    overflow: hidden;
+  }
+  
+  .crown-dhall {
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 15%;
+    left: 70%;
+    overflow: hidden;
+  }
+  
+  .cowell-dhall {
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 31%;
+    left: 75%;
+    overflow: hidden;
+  }
+  
+  .merrill-market {
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 17%;
+    left: 76%;
+    overflow: hidden;
+  }
+  
+  .perksuc {
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 12%;
+    left: 57%;
+    overflow: hidden;
+  }
+  
+  .perksbe {
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 16%;
+    left: 40%;
+    overflow: hidden;
+  }
+  
+  .perksps {
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 18%;
+    left: 26%;
+    overflow: hidden;
+  }
+   
+  .perksem {
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    overflow: hidden;
+  }
+
+  .porter-dhall {
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 43%;
+    left: 20%;
+    overflow: hidden;
+  }
+  
+  .porter-market {
+    width: 100px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 49%;
+    left: 20%;
+    overflow: hidden;
+  }
+  
+  .pupusa {
+    width: 150px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 45%;
+    left: 63%;
+    overflow: hidden;
+  }
+  
+  .snb {
+    width: 160px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 15%;
+    left: 47%;
+    overflow: hidden;
+  }
+  
+  .togos {
+    width: 120px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: fixed;
+    top: 30%;
+    left: 56%;
+    overflow: hidden;
+  }
+  
+  button{
+    display: inline-block;
+    text-align: center;
+    cursor:pointer;
+    align-items: flex-start;
+    box-sizing: content-box;
+    background-color: transparent;
+    padding: 1px 6px;
+    border: none;
+  }
+  
+  .grow button{
+  transition: 1s ease;
   overflow: hidden;
-}
+  }
+  
+  .grow:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
 
-.filter button{
- position: fixed;
- bottom: 5%;
- right: 5%;
- 
-}
-
-.filterBackground{
-  position: absolute;
+#blockdisplay{
+    position: fixed;
 width: 431px;
 height: 546px;
-left: 1049px;
-top: 436px;
+right: 5%;
+top: 60%;
+
 background: #8FC67C;
 border-radius: 10px 10px 0px 0px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+
+color: #696666;
 }
 
-.locations{
-  min-width: 2500px;
-  min-height: 800px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 200px;
-  left: 300px;
-  overflow: hidden;
+#filter {
+    position: fixed;
+    right: 2%;
+    top: 95%;
 }
 
-img{
-  width: 100%;
-  height: 100%;
-  position: contain;
-  overflow: hidden;
-}
-.alebrijes {
-  width: 140px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  position: absolute;
-  top: 700px;
-  left: 700px;
-  overflow: hidden;
+.search-Bar {
+    position: absolute;
+    width: 224px;
+    height: 38px;
+    left: 1226px;
+    top: 474px;
+
+    background: rgba(224, 249, 171, 0.75);
+    border-radius: 10px;
 }
 
-.bakery {
-  width: 130px;
-  height: 130px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 300px;
-  left: 530px;
-  overflow: hidden;
-}
-
-.oakes-cafe {
-  width: 120px;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 650px;
-  left: 300px;
-  overflow: hidden;
-}
-
-.c10-dhall {
-  width: 100px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 10px;
-  left: 900px;
-  overflow: hidden;
-}
-
-.global-cafe {
-  width: 90px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 450px;
-  left: 750px;
-  overflow: hidden;
-}
-
-.coffee {
-  width: 150px;
-  height: 80px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 360px;
-  left: 950px;
-  overflow: hidden;
-}
-
-.cowell-dhall {
-  width: 100px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 350px;
-  left: 1300px;
-  overflow: hidden;
-}
-
-.crown-dhall {
-  width: 100px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 0px;
-  left: 1200px;
-  overflow: hidden;
-}
-
-.merrill-market {
-  width: 100px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 0px;
-  left: 1320px;
-  overflow: hidden;
-}
-
-.perks1 {
-  width: 90px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 0px;
-  left: 380px;
-  overflow: hidden;
-}
-
-.perks2 {
-  width: 90px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 250px;
-  left: 360px;
-  overflow: hidden;
-}
-
-.perks3 {
-  width: 90px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 150px;
-  left: 750px;
-  overflow: hidden;
-}
-
-.porter-dhall {
-  width: 100px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 450px;
-  left: 30px;
-  overflow: hidden;
-}
-
-.porter-market {
-  width: 100px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 550px;
-  left: 30px;
-  overflow: hidden;
-}
-
-.pupusa {
-  width: 150px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 260px;
-  left: 950px;
-  overflow: hidden;
-}
-
-.snb {
-  width: 160px;
-  height: 80px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 2px;
-  left: 500px;
-  overflow: hidden;
-}
-
-.togos {
-  width: 120px;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: absolute;
-  top: 220px;
-  left: 520px;
-  overflow: hidden;
-}
-
-button{
-  display: inline-block;
-  text-align: center;
-  cursor:pointer;
-  align-items: flex-start;
-  box-sizing: content-box;
-  background-color: transparent;
-  padding: 1px 6px;
-  border: none;
-}
-
-.grow button{
-transition: 1s ease;
-}
-
-.grow:hover{
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: 1s ease;
+#searchForm {
+    display: flex;
+    align-items: center;
   }
+  
+  #searchInput {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #searchButton {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

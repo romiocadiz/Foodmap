@@ -2,12 +2,12 @@
 <html>
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<script type="text/javascript" src="./javascript/main.js" DEFER></script>
+    <script type="text/javascript" src="./javascript/main.js" DEFER></script>
     <title>UCSC Food Map</title>
 </head>
 <body>
@@ -16,18 +16,28 @@
         <div class="base">
         </div>
         <div class="f">
-            <button class="filter" type="png">
-                <img src="./images/filter-icon.png" alt="filter-button">
+            <button id= "filter" class="filter" type="png">
+                <img class="filter-icon" src="./images/filter-icon.png" alt="filter-button">
               </button>
               <span id="filterMenuWindow" style="display:none;">
                 <form>
-    
+            <div id="blockdisplay">
                 <p>
-                    <button type="button" id="exitButton">X</button>
+                    <button type="button" id="closeButton" onclick="closeFilterMenu()">
+                    <img class="closeButton" src="./images/x.png" alt="x-button">
+                    </button>
                 </p>
-    
+                <!-- <button type="button" id="searchButton" onclick="searchBar()">
+                    <img class="searchButton" src="./images/search-icon.png" alt="search-button">
+                </button> -->
+
                 <p>
-                    <input type="text" id="searchBox" name="searchBox" placeholder="Search">
+                    <!-- <input type="text" id="search-Bar" name="search-Bar" placeholder="Search"> -->
+                    <form id="searchForm">
+                        <input type="text" id="searchInput" placeholder="Search">
+                        <button type="button" id="searchButton">Search</button>
+                      </form>
+                      
                 </p>
     
                 <div>
@@ -67,100 +77,102 @@
                     </p>
     
                     <button type="button" id="formSubmitButton">Apply</button>
-                </div>
-    
+            </div>
                 </form>
             </span>    
+                </div>
         </div>
-        <div class="locations">
-            <div class="alebrijes">
+        <div class="locations mapicons">
+            <div class="alebrijes" class="place-icon" data-place-id="place1">
                 <button class="grow" type="png">
                     <img src="./images/alebrijes.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="bakery">
+            <div class="bakery" class="place-icon" data-place-id="place2">
                 <button class="grow" type="png">
                     <img src="./images/bakery.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="oakes-cafe">
+            <div class="oakes-cafe" class="place-icon" data-place-id="place3">
                 <button class="grow" type="png">
                     <img src="./images/oakes-cafe.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="c10-dhall">
+            <div class="c10-dhall" class="place-icon" data-place-id="place4">
                 <button class="grow" type="png">
                     <img src="./images/c10-dhall.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="perks1">
+            <div class="perksuc" class="place-icon" data-place-id="place5">
                 <button class="grow" type="png">
                     <img src="./images/cafe.png" alt="cafepng">
                   </button>
             </div>
-            <div class="perks2">
+            <div class="perksbe" class="place-icon" data-place-id="place6">
                 <button class="grow" type="png">
                     <img src="./images/cafe.png" alt="cafepng">
                   </button>
             </div>
-            <div class="perks3">
+            <div class="perksps" class="place-icon" data-place-id="place7">
                 <button class="grow" type="png">
                     <img src="./images/cafe.png" alt="cafepng">
                   </button>
             </div>
-            <div class="global-cafe">
+            <div class="perksem" class="place-icon" data-place-id="place8">
                 <button class="grow" type="png">
                     <img src="./images/cafe.png" alt="cafepng">
                   </button>
             </div>
-            <div class="coffee">
+            <div class="global-cafe" class="place-icon" data-place-id="place9">
+                <button class="grow" type="png">
+                    <img src="./images/cafe.png" alt="cafepng">
+                  </button>
+            </div>
+            <div class="coffee" class="place-icon" data-place-id="place10">
                 <button class="grow" type="png">
                     <img src="./images/coffee.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="cowell-dhall">
+            <div class="cowell-dhall" class="place-icon" data-place-id="place11">
                 <button class="grow" type="png">
                     <img src="./images/cowell-dhall.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="crown-dhall">
+            <div class="crown-dhall" class="place-icon" data-place-id="place12">
                 <button class="grow" type="png">
                     <img src="./images/crown-dhall.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="merrill-market">
+            <div class="merrill-market" class="place-icon" data-place-id="place13">
                 <button class="grow" type="png">
                     <img src="./images/merrill-market.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="porter-market">
+            <div class="porter-market" class="place-icon" data-place-id="place15">
                 <button class="grow" type="png">
                     <img src="./images/porter-market.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="porter-dhall">
+            <div class="porter-dhall" class="place-icon" data-place-id="place16">
                 <button class="grow" type="png">
                     <img src="./images/porter-dhall.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="pupusa">
+            <div class="pupusa" class="place-icon" data-place-id="place17">
                 <button class="grow" type="png">
                     <img src="./images/pupusa.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="snb">
+            <div class="snb" class="place-icon" data-place-id="place18">
                 <button class="grow" type="png">
                     <img src="./images/snb.png" alt="buttonpng">
                   </button>
             </div>
-            <div class="togos">
+            <div class="togos" class="place-icon" data-place-id="place19">
                 <button class="grow" type="png">
                     <img src="./images/togos.png" alt="buttonpng">
                   </button>
-                  
         </div>
-        <div id="descriptionContainer"></div> <!-- (For original code) This line was added by Tony Pau as its needed in index.html for javascrript to output the description -->
     </div>
-</body>
 
-</html>
+ 
