@@ -10,169 +10,169 @@
     <script type="text/javascript" src="./javascript/main.js" DEFER></script>
     <title>UCSC Food Map</title>
 </head>
+
 <body>
     <div class="content">
         <div class="title"></div><span>UCSC Food Map</span>
         <div class="base">
         </div>
         <div class="f">
-            <button id= "filter" class="filter" type="png">
+            <button id="filter" class="filter" type="png">
                 <img class="filter-icon" src="./images/filter-icon.png" alt="filter-button">
-              </button>
-              <span id="filterMenuWindow" style="display:none;">
+            </button>
+            <span id="filterMenuWindow">
                 <form>
-            <div id="blockdisplay">
-                <p>
-                    <button type="button" id="closeButton" onclick="closeFilterMenu()">
-                    <img class="closeButton" src="./images/x.png" alt="x-button">
-                    </button>
-                </p>
-                <!-- <button type="button" id="searchButton" onclick="searchBar()">
+                    <div id="blockdisplay">
+                        <p>
+                            <button type="button" id="closeButton" onclick="closeFilterMenu()">
+                                <img class="closeButton" src="./images/x.png" alt="x-button">
+                            </button>
+                        </p>
+                        <!-- <button type="button" id="searchButton" onclick="searchBar()">
                     <img class="searchButton" src="./images/search-icon.png" alt="search-button">
                 </button> -->
 
-                <p>
-                    <!-- <input type="text" id="search-Bar" name="search-Bar" placeholder="Search"> -->
-                    <form id="searchForm">
-                        <input type="text" id="searchInput" placeholder="Search">
-                        <button type="button" id="searchButton">Search</button>
-                      </form>
-                      
-                </p>
-    
-                <div>
-                    <h2>Sort By</h2>
-    
-                    <input type="checkbox" id="sortByOption1" name="sortByOption1">
-                    <label for="sortByOption1">Distance</label>
-    
-                    <p>
-                    <input type="checkbox" id="sortByOption2" name="sortByOption2">
-                    <label for="sortByOption2">Popularity</label>
-                    </p>
-    
-                    <p>
-                    <input type="checkbox" id="sortByOption3" name="sortByOption3">
-                    <label for="sortByOption3">Rating</label>
-                    </p>
-    
-                    <h2>Type of Places</h2>
-    
-                    <input type="checkbox" id="typeOfPlaceOption1" name="typeOfPlaceOption1">
-                    <label for="typeOfPlaceOption1">Cafes</label>
-    
-                    <p>
-                    <input type="checkbox" id="typeOfPlaceOption2" name="typeOfPlaceOption2">
-                    <label for="typeOfPlaceOption2">Dining Halls</label>
-                    </p>
-    
-                    <p>
-                    <input type="checkbox" id="typeOfPlaceOption3" name="typeOfPlaceOption3">
-                    <label for="typeOfPlaceOption3">Food Trucks</label>
-                    </p>
-    
-                    <p>
-                    <input type="checkbox" id="typeOfPlaceOption4" name="typeOfPlaceOption4">
-                    <label for="typeOfPlaceOption4">Markets</label>
-                    </p>
-    
-                    <button type="button" id="formSubmitButton">Apply</button>
-            </div>
+                        <p>
+                            <!-- <input type="text" id="search-Bar" name="search-Bar" placeholder="Search"> -->
+                        <form id="searchForm">
+                            <input type="text" id="searchInput" placeholder="Search">
+                            <button type="button" id="searchButton">Search</button>
+                        </form>
+
+                        </p>
+
+                        <div>
+                            <h2>Sort By</h2>
+
+                            <input type="checkbox" id="sortByOption1" name="sortByOption1">
+                            <label for="sortByOption1">Distance</label>
+
+                            <p>
+                                <input type="checkbox" id="sortByOption2" name="sortByOption2">
+                                <label for="sortByOption2">Popularity</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" id="sortByOption3" name="sortByOption3">
+                                <label for="sortByOption3">Rating</label>
+                            </p>
+
+                            <h2>Type of Places</h2>
+
+                            <input type="checkbox" id="typeOfPlaceOption1" name="typeOfPlaceOption1">
+                            <label for="typeOfPlaceOption1">Cafes</label>
+
+                            <p>
+                                <input type="checkbox" id="typeOfPlaceOption2" name="typeOfPlaceOption2">
+                                <label for="typeOfPlaceOption2">Dining Halls</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" id="typeOfPlaceOption3" name="typeOfPlaceOption3">
+                                <label for="typeOfPlaceOption3">Food Trucks</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" id="typeOfPlaceOption4" name="typeOfPlaceOption4">
+                                <label for="typeOfPlaceOption4">Markets</label>
+                            </p>
+
+                            <button type="button" id="formSubmitButton">Apply</button>
+                        </div>
                 </form>
-            </span>    
-                </div>
-        </div>
-        <div class="locations mapicons">
-            <div class="alebrijes" class="place-icon" data-place-id="place1">
-                <button class="grow" type="png">
-                    <img src="./images/alebrijes.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="bakery" class="place-icon" data-place-id="place2">
-                <button class="grow" type="png">
-                    <img src="./images/bakery.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="oakes-cafe" class="place-icon" data-place-id="place3">
-                <button class="grow" type="png">
-                    <img src="./images/oakes-cafe.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="c10-dhall" class="place-icon" data-place-id="place4">
-                <button class="grow" type="png">
-                    <img src="./images/c10-dhall.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="perksuc" class="place-icon" data-place-id="place5">
-                <button class="grow" type="png">
-                    <img src="./images/cafe.png" alt="cafepng">
-                  </button>
-            </div>
-            <div class="perksbe" class="place-icon" data-place-id="place6">
-                <button class="grow" type="png">
-                    <img src="./images/cafe.png" alt="cafepng">
-                  </button>
-            </div>
-            <div class="perksps" class="place-icon" data-place-id="place7">
-                <button class="grow" type="png">
-                    <img src="./images/cafe.png" alt="cafepng">
-                  </button>
-            </div>
-            <div class="perksem" class="place-icon" data-place-id="place8">
-                <button class="grow" type="png">
-                    <img src="./images/cafe.png" alt="cafepng">
-                  </button>
-            </div>
-            <div class="global-cafe" class="place-icon" data-place-id="place9">
-                <button class="grow" type="png">
-                    <img src="./images/cafe.png" alt="cafepng">
-                  </button>
-            </div>
-            <div class="coffee" class="place-icon" data-place-id="place10">
-                <button class="grow" type="png">
-                    <img src="./images/coffee.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="cowell-dhall" class="place-icon" data-place-id="place11">
-                <button class="grow" type="png">
-                    <img src="./images/cowell-dhall.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="crown-dhall" class="place-icon" data-place-id="place12">
-                <button class="grow" type="png">
-                    <img src="./images/crown-dhall.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="merrill-market" class="place-icon" data-place-id="place13">
-                <button class="grow" type="png">
-                    <img src="./images/merrill-market.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="porter-market" class="place-icon" data-place-id="place15">
-                <button class="grow" type="png">
-                    <img src="./images/porter-market.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="porter-dhall" class="place-icon" data-place-id="place16">
-                <button class="grow" type="png">
-                    <img src="./images/porter-dhall.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="pupusa" class="place-icon" data-place-id="place17">
-                <button class="grow" type="png">
-                    <img src="./images/pupusa.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="snb" class="place-icon" data-place-id="place18">
-                <button class="grow" type="png">
-                    <img src="./images/snb.png" alt="buttonpng">
-                  </button>
-            </div>
-            <div class="togos" class="place-icon" data-place-id="place19">
-                <button class="grow" type="png">
-                    <img src="./images/togos.png" alt="buttonpng">
-                  </button>
+            </span>
         </div>
     </div>
-
- 
+    <div class="locations mapicons">
+        <div class="grow alebrijes" class="place-icon" data-place-id="place1">
+            <button type="png">
+                <img src="./images/alebrijes.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow bakery" class="place-icon" data-place-id="place2">
+            <button type="png">
+                <img src="./images/bakery.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow oakes-cafe" class="place-icon" data-place-id="place3">
+            <button type="png">
+                <img src="./images/oakes-cafe.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow c10-dhall" class="place-icon" data-place-id="place4">
+            <button type="png">
+                <img src="./images/c10-dhall.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow perksuc" class="place-icon" data-place-id="place5">
+            <button type="png">
+                <img src="./images/cafe.png" alt="cafepng">
+            </button>
+        </div>
+        <div class="grow perksbe" class="place-icon" data-place-id="place6">
+            <button type="png">
+                <img src="./images/cafe.png" alt="cafepng">
+            </button>
+        </div>
+        <div class="grow perksps" class="place-icon" data-place-id="place7">
+            <button type="png">
+                <img src="./images/cafe.png" alt="cafepng">
+            </button>
+        </div>
+        <div class="grow perksem" class="place-icon" data-place-id="place8">
+            <button type="png">
+                <img src="./images/cafe.png" alt="cafepng">
+            </button>
+        </div>
+        <div class="grow global-cafe" class="place-icon" data-place-id="place9">
+            <button type="png">
+                <img src="./images/cafe.png" alt="cafepng">
+            </button>
+        </div>
+        <div class="grow coffee" class="place-icon" data-place-id="place10">
+            <button type="png">
+                <img src="./images/coffee.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow cowell-dhall" class="place-icon" data-place-id="place11">
+            <button type="png">
+                <img src="./images/cowell-dhall.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow crown-dhall" class="place-icon" data-place-id="place12">
+            <button type="png">
+                <img src="./images/crown-dhall.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow merrill-market" class="place-icon" data-place-id="place13">
+            <button type="png">
+                <img src="./images/merrill-market.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow porter-market" class="place-icon" data-place-id="place15">
+            <button type="png">
+                <img src="./images/porter-market.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow porter-dhall" class="place-icon" data-place-id="place16">
+            <button type="png">
+                <img src="./images/porter-dhall.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow pupusa" class="place-icon" data-place-id="place17">
+            <button type="png">
+                <img src="./images/pupusa.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow snb" class="place-icon" data-place-id="place18">
+            <button type="png">
+                <img src="./images/snb.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow togos" class="place-icon" data-place-id="place19">
+            <button type="png">
+                <img src="./images/togos.png" alt="buttonpng">
+            </button>
+        </div>
+    </div>
+</body>
