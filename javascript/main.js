@@ -41,7 +41,7 @@ var locationDetails = {
     
   },
   "place5": {
-   address: "Baskin Engineering Loop",
+   address: "University “Center, Santa Cruz, CA 95064,",
    mapLink: "https://www.google.com/maps/dir//Terra+Fresca+Restaurant+2+College+Nine+Rd+Santa+Cruz,+CA+95064/@37.000978,-122.057736,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e410a5d14964d:0x77aee440d4fb0c00!2m2!1d-122.057736!2d37.000978?entry=ttu",
    menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=22&locationName=Perk+Coffee+Bars&naFlag=1",
    hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 4pm",
@@ -53,16 +53,16 @@ var locationDetails = {
    hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 3pm",
   },
   "place7": {
-  address: "Baskin Engineering Loop",
+  address: "Physical Sciences Building, Santa Cruz, CA 95064",
   mapLink: "https://www.google.com/maps/dir//Physical+Sciences+Building+590+Steinhart+Way+Santa+Cruz,+CA+95064/@36.9996638,-122.0618552,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808e417538a775b5:0x5fe165fef632811e",
   menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=22&locationName=Perk+Coffee+Bars&naFlag=1",
   hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 3pm",
  },
   "place8": {
-  address: "Baskin Engineering Loop",
+  address: "Earth & Marine Sciences, Santa Cruz, CA 95064",
   mapLink: "https://www.google.com/maps/dir//Perk+Coffee+Bar+at+Earth+%26+Marine+Sciences+Red+Hill+Rd+Santa+Cruz,+CA+95064/@36.9979477,-122.0599438,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e417548570147:0xc7b4bff362287fef!2m2!1d-122.0599438!2d36.9979477?entry=ttu",
   menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=22&locationName=Perk+Coffee+Bars&naFlag=1",
-  hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 3pmpm",
+  hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 3pm",
   },
   "place9": {
     address: "414 McHenry Rd, Santa Cruz, CA 95064",
