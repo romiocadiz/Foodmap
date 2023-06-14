@@ -87,7 +87,7 @@ var locationDetails = {
   },
   "place1": {
   address: "Alebrijes Oaxcan Kitchen, Santa Cruz, CA 95064",
-  mapLink: "https://www.google.com/maps/place/Bay+Tree+Campus+Store/@36.9979056,-122.0582258,17z/data=!3m1!4b1!4m6!3m5!1s0x808e41a0d59e6699:0x183b8786aeb3fb84!8m2!3d36.9979013!4d-122.0556509!16s%2Fg%2F11bwygzls9?entry=ttu",
+  mapLink: "https://goo.gl/maps/3wkLAW9HrT7N2xdX6",
   menuLink: "https://alebrijeskitchen.com/menu",
   hours: "Tues 10am - 4pm\n Thurs, Fri 10am - 2pm\n Wed 2pm - 6pm\nSat - Sun: 12pm - 8pm ",
   },
