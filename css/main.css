@@ -70,30 +70,30 @@ span {
   background-position: center;
   background-size: contain;
   position: fixed;
-  top: 60%;
+  top: 70%;
   left: 55%;
 }
 
 .bakery {
   width: 130px;
-  height: 130px;
+  height: 100px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 33%;
-  left: 50%;
+  top: 40%;
+  left: 48%;
 }
 
 .oakes-cafe {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 90px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
   top: 69%;
-  left: 40%;
+  left: 35%;
 }
 
 .c10-dhall {
@@ -104,7 +104,7 @@ span {
   background-size: contain;
   position: fixed;
   top: 12%;
-  left: 62%;
+  left: 58%;
 }
 
 .global-cafe {
@@ -114,7 +114,7 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 54%;
+  top: 56%;
   left: 48%;
 }
 
@@ -125,8 +125,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 38%;
-  left: 63%;
+  top: 40%;
+  left: 65%;
 }
 
 .crown-dhall {
@@ -147,8 +147,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 31%;
-  left: 75%;
+  top: 34%;
+  left: 78%;
 }
 
 .merrill-market {
@@ -158,7 +158,7 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 17%;
+  top: 15%;
   left: 76%;
 }
 
@@ -170,7 +170,7 @@ span {
   background-size: contain;
   position: fixed;
   top: 12%;
-  left: 57%;
+  left: 56%;
 }
 
 .perksbe {
@@ -191,8 +191,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 18%;
-  left: 26%;
+  top: 36%;
+  left: 42%;
 }
 
 .perksem {
@@ -202,8 +202,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 35%;
-  left: 40%;
+  top: 32%;
+  left: 58%;
 }
 
 .porter-dhall {
@@ -224,7 +224,7 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 49%;
+  top: 50%;
   left: 20%;
 }
 
@@ -235,8 +235,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 45%;
-  left: 63%;
+  top: 48%;
+  left: 65%;
 }
 
 .snb {
@@ -246,19 +246,19 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 15%;
-  left: 47%;
+  top: 18%;
+  left: 46%;
 }
 
 .togos {
-  width: 120px;
+  width: 130px;
   height: 90px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 30%;
-  left: 56%;
+  top: 31%;
+  left: 48%;
 }
 
 button {
