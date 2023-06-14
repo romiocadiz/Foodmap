@@ -120,7 +120,7 @@ var closeDetailsButton = document.getElementById('closeLocationDetails');
 
 closeDetailsButton.addEventListener('click', () => {
   detailsElement.style.display = 'none';
-});
+})
 
 // Attach a click event listener to each icon
 for (icon of placeIcons) {
