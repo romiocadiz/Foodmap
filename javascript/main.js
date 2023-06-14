@@ -40,6 +40,7 @@ var locationDetails = {
     hours: "Mon - Thur: 8am - 8pm\nFri: 8am - 2pm",
     
   },
+<<<<<<< HEAD
   "place5": {
    address: "Baskin Engineering Loop",
    mapLink: "https://www.google.com/maps/dir//Terra+Fresca+Restaurant+2+College+Nine+Rd+Santa+Cruz,+CA+95064/@37.000978,-122.057736,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e410a5d14964d:0x77aee440d4fb0c00!2m2!1d-122.057736!2d37.000978?entry=ttu",
@@ -63,6 +64,27 @@ var locationDetails = {
   mapLink: "https://www.google.com/maps/dir//Perk+Coffee+Bar+at+Earth+%26+Marine+Sciences+Red+Hill+Rd+Santa+Cruz,+CA+95064/@36.9979477,-122.0599438,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e417548570147:0xc7b4bff362287fef!2m2!1d-122.0599438!2d36.9979477?entry=ttu",
   menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=22&locationName=Perk+Coffee+Bars&naFlag=1",
   hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 3pmpm",
+  },
+  "place9": {
+    address: "414 McHenry Rd, Santa Cruz, CA 95064",
+    mapLink: "https://goo.gl/maps/EVq4BLngr3PUfpJN9",
+    menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=46&locationName=Global+Village+Cafe&naFlag=1",
+    hours: "Mon - Thur: 8am - 8:30pm\nFri: 8am - 5pm",
+    
+  },
+  "place11": {
+    address: "520 Cowell-Stevenson Road, Santa Cruz, CA 95064",
+    mapLink: "https://goo.gl/maps/osGeBq2AqUc7tsk97",
+    menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=05&locationName=Cowell%2fStevenson+Dining+Hall&naFlag=1",
+    hours: "Sun - Thur: 7am - 11pm\nFri - Sat: 7am - 8pm",
+    
+  },
+  "place12": {
+    address: "630 Crown Rd, Santa Cruz, CA 95064",
+    mapLink: "https://goo.gl/maps/f5Yxh6oT5qUAi37G7",
+    menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=20&locationName=Crown%2fMerrill+Dining+Hall&naFlag=1",
+    hours: "Mon - Fri: 7am - 8pm",
+    
   },
 }
 
