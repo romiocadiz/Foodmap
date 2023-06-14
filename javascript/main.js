@@ -40,7 +40,6 @@ var locationDetails = {
     hours: "Mon - Thur: 8am - 8pm\nFri: 8am - 2pm",
     
   },
-<<<<<<< HEAD
   "place5": {
    address: "Baskin Engineering Loop",
    mapLink: "https://www.google.com/maps/dir//Terra+Fresca+Restaurant+2+College+Nine+Rd+Santa+Cruz,+CA+95064/@37.000978,-122.057736,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e410a5d14964d:0x77aee440d4fb0c00!2m2!1d-122.057736!2d37.000978?entry=ttu",
