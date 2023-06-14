@@ -85,6 +85,24 @@ var locationDetails = {
     hours: "Mon - Fri: 7am - 8pm",
     
   },
+  "place1": {
+  address: "Alebrijes Oaxcan Kitchen, Santa Cruz, CA 95064",
+  mapLink: "https://www.google.com/maps/place/Bay+Tree+Campus+Store/@36.9979056,-122.0582258,17z/data=!3m1!4b1!4m6!3m5!1s0x808e41a0d59e6699:0x183b8786aeb3fb84!8m2!3d36.9979013!4d-122.0556509!16s%2Fg%2F11bwygzls9?entry=ttu",
+  menuLink: "https://alebrijeskitchen.com/menu",
+  hours: "Tues 10am - 4pm\n Thurs, Fri 10am - 2pm\n Wed 2pm - 6pm\nSat - Sun: 12pm - 8pm ",
+  },
+  "place2": {
+  address: "Kelly's French Bakery, Santa Cruz, CA 95064",
+  mapLink: "https://www.google.com/maps/place/McHenry+Library/@36.9957344,-122.0615794,17z/data=!3m2!4b1!5s0x808e41a19823356f:0xbb8117451bd05220!4m6!3m5!1s0x808e41a1a4b2b793:0xe94123003629bcf3!8m2!3d36.9957301!4d-122.0590045!16s%2Fm%2F02rdlhf?entry=ttu",
+  menuLink: "https://www.kellysfrenchbakery.com/wholesale-delivery/ ",
+  hours: "Mon - Sat: 10am - 3pm\nSun: closed",
+  },
+  "place4": {
+  address: "College 9/10 Dinning Hall, Santa Cruz, CA 95064",
+  mapLink: "https://goo.gl/maps/TmFWKUHKdrPTLvMb6",
+  menuLink: "https://www.google.com/maps?ll=37.000769,-122.057834&z=17&t=m&hl=en-US&gl=US&mapclient=embed&cid=6871629871090624202",
+  hours: "Mon - Sun: 7am - 11pm",
+  },
 }
 
 // Get all the place icons
