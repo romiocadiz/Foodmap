@@ -57,7 +57,7 @@ var locationDetails = {
   mapLink: "https://www.google.com/maps/dir//Physical+Sciences+Building+590+Steinhart+Way+Santa+Cruz,+CA+95064/@36.9996638,-122.0618552,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808e417538a775b5:0x5fe165fef632811e",
   menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=22&locationName=Perk+Coffee+Bars&naFlag=1",
   hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 3pm",
- },
+  },
   "place8": {
   address: "Earth & Marine Sciences, Santa Cruz, CA 95064",
   mapLink: "https://www.google.com/maps/dir//Perk+Coffee+Bar+at+Earth+%26+Marine+Sciences+Red+Hill+Rd+Santa+Cruz,+CA+95064/@36.9979477,-122.0599438,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e417548570147:0xc7b4bff362287fef!2m2!1d-122.0599438!2d36.9979477?entry=ttu",
@@ -103,7 +103,12 @@ var locationDetails = {
   menuLink: "https://www.google.com/maps?ll=37.000769,-122.057834&z=17&t=m&hl=en-US&gl=US&mapclient=embed&cid=6871629871090624202",
   hours: "Mon - Sun: 7am - 11pm",
   },
-}
+  "place10": {
+  address: "Iveta, Santa Cruz, CA 95064",
+  mapLink: "https://www.google.com/maps/place/Iveta+Campus+UCSC/@36.9981123,-122.0584511,17z/data=!3m1!4b1!4m6!3m5!1s0x808e41a0d1315555:0x9192f1432c33695a!8m2!3d36.998108!4d-122.0558762!16s%2Fg%2F11cn0r507y?entry=ttu",
+  menuLink: "https://iveta-campus-llc.square.site/",
+  hours: "Mon - Fri: 9am - 5pm",
+}};
 
 // Get all the place icons
 var placeIcons = document.getElementsByClassName('place-icon');
