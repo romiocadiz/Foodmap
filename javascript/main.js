@@ -39,7 +39,8 @@ var locationDetails = {
     menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=23&locationName=Oakes+Cafe&naFlag=1",
     hours: "Mon - Thur: 8am - 8pm\nFri: 8am - 2pm",
     
-  }
+  },
+
 }
 
 // Get all the place icons
