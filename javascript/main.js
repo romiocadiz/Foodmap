@@ -41,7 +41,7 @@ var locationDetails = {
     
   },
   "place5": {
-   address: "University “Center, Santa Cruz, CA 95064,",
+   address: "University Center, Santa Cruz, CA 95064,",
    mapLink: "https://www.google.com/maps/dir//Terra+Fresca+Restaurant+2+College+Nine+Rd+Santa+Cruz,+CA+95064/@37.000978,-122.057736,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808e410a5d14964d:0x77aee440d4fb0c00!2m2!1d-122.057736!2d37.000978?entry=ttu",
    menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=22&locationName=Perk+Coffee+Bars&naFlag=1",
    hours: "Mon - Fri: 8am - 5pm\nFri: 8am - 4pm",
