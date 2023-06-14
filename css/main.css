@@ -75,13 +75,13 @@ span {
 }
 
 .bakery {
-  width: 130px;
-  height: 100px;
+  width: 120px;
+  height: 80px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 40%;
+  top: 41%;
   left: 48%;
 }
 
@@ -92,8 +92,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 69%;
-  left: 35%;
+  top: 66%;
+  left: 34%;
 }
 
 .c10-dhall {
@@ -103,8 +103,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 12%;
-  left: 58%;
+  top: 16%;
+  left: 56%;
 }
 
 .global-cafe {
@@ -162,17 +162,6 @@ span {
   left: 76%;
 }
 
-.perksuc {
-  width: 90px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: fixed;
-  top: 12%;
-  left: 56%;
-}
-
 .perksbe {
   width: 90px;
   height: 100px;
@@ -181,7 +170,7 @@ span {
   background-size: contain;
   position: fixed;
   top: 16%;
-  left: 40%;
+  left: 38%;
 }
 
 .perksps {
@@ -247,17 +236,17 @@ span {
   background-size: contain;
   position: fixed;
   top: 18%;
-  left: 46%;
+  left: 44%;
 }
 
 .togos {
   width: 130px;
-  height: 90px;
+  height: 70px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 31%;
+  top: 34%;
   left: 48%;
 }
 
@@ -385,4 +374,8 @@ button {
   font-size: 18px;
   line-height: 18px;
   color: #696666;
+}
+
+div.nutrition-api{
+  padding-left: 50px;
 }
