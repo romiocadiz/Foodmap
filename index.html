@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://www.ucsc.edu/favicon.ico" rel="shortcut icon" />
     <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
@@ -83,95 +84,113 @@
             </span>
         </div>
     </div>
+
+    <div id="locationDetails">
+        <button type="button" id="closeLocationDetails">
+            <img class="closeButton" src="./images/x.png" alt="x-button">
+        </button>
+        <h3>Location</h3>
+        <a style="text-decoration:none" href="" target="_blank" id="locationAddress"></a>
+        <br /><br />
+
+        <a style="text-decoration:none" href="" target="_blank" id="locationMenu">Menu</a>
+
+        <br /><br /><br /><br />
+
+        <h3>Hours</h3>
+        <h4 id="locationHours"></h4>
+
+    </div>
+
     <div class="locations mapicons">
-        <div class="grow alebrijes" class="place-icon" data-place-id="place1">
+        <div class="grow alebrijes place-icon" data-place-id="place1">
             <button type="png">
                 <img src="./images/alebrijes.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow bakery" class="place-icon" data-place-id="place2">
+        <div class="grow bakery place-icon" data-place-id="place2">
             <button type="png">
                 <img src="./images/bakery.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow oakes-cafe" class="place-icon" data-place-id="place3">
+        <div class="grow oakes-cafe place-icon" data-place-id="place3">
             <button type="png">
                 <img src="./images/oakes-cafe.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow c10-dhall" class="place-icon" data-place-id="place4">
+        <div class="grow c10-dhall place-icon" data-place-id="place4">
             <button type="png">
                 <img src="./images/c10-dhall.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow perksuc" class="place-icon" data-place-id="place5">
+        <div class="grow perksuc place-icon" data-place-id="place5">
             <button type="png">
                 <img src="./images/cafe.png" alt="cafepng">
             </button>
         </div>
-        <div class="grow perksbe" class="place-icon" data-place-id="place6">
+        <div class="grow perksbe place-icon" data-place-id="place6">
             <button type="png">
                 <img src="./images/cafe.png" alt="cafepng">
             </button>
         </div>
-        <div class="grow perksps" class="place-icon" data-place-id="place7">
+        <div class="grow perksps place-icon" data-place-id="place7">
             <button type="png">
                 <img src="./images/cafe.png" alt="cafepng">
             </button>
         </div>
-        <div class="grow perksem" class="place-icon" data-place-id="place8">
+        <div class="grow perksem place-icon" data-place-id="place8">
             <button type="png">
                 <img src="./images/cafe.png" alt="cafepng">
             </button>
         </div>
-        <div class="grow global-cafe" class="place-icon" data-place-id="place9">
+        <div class="grow global-cafe place-icon" data-place-id="place9">
             <button type="png">
                 <img src="./images/cafe.png" alt="cafepng">
             </button>
         </div>
-        <div class="grow coffee" class="place-icon" data-place-id="place10">
+        <div class="grow coffee place-icon" data-place-id="place10">
             <button type="png">
                 <img src="./images/coffee.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow cowell-dhall" class="place-icon" data-place-id="place11">
+        <div class="grow cowell-dhall place-icon" data-place-id="place11">
             <button type="png">
                 <img src="./images/cowell-dhall.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow crown-dhall" class="place-icon" data-place-id="place12">
+        <div class="grow crown-dhall place-icon" data-place-id="place12">
             <button type="png">
                 <img src="./images/crown-dhall.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow merrill-market" class="place-icon" data-place-id="place13">
+        <div class="grow merrill-market place-icon" data-place-id="place13">
             <button type="png">
                 <img src="./images/merrill-market.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow porter-market" class="place-icon" data-place-id="place15">
+        <div class="grow porter-market place-icon" data-place-id="place15">
             <button type="png">
                 <img src="./images/porter-market.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow porter-dhall" class="place-icon" data-place-id="place16">
+        <div class="grow porter-dhall place-icon" data-place-id="place16">
             <button type="png">
                 <img src="./images/porter-dhall.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow pupusa" class="place-icon" data-place-id="place17">
+        <div class="grow pupusa place-icon" data-place-id="place17">
             <button type="png">
                 <img src="./images/pupusa.png" alt="buttonpng">
             </button>
         </div>
-        <div class="grow snb" class="place-icon" data-place-id="place18">
-            <button type="png">
-                <img src="./images/snb.png" alt="buttonpng">
-            </button>
-        </div>
-        <div class="grow togos" class="place-icon" data-place-id="place19">
+        <div class="grow togos place-icon" data-place-id="place18">
             <button type="png">
                 <img src="./images/togos.png" alt="buttonpng">
+            </button>
+        </div>
+        <div class="grow snb place-icon" data-place-id="place19">
+            <button type="png">
+                <img src="./images/snb.png" alt="buttonpng">
             </button>
         </div>
     </div>

@@ -1,7 +1,3 @@
-console.log("IM RUNNING!")
-
-
-
 function handleSearch() {
   var searchInput = document.getElementById('searchInput');
   var searchTerm = searchInput.value.toLowerCase();
@@ -30,81 +26,55 @@ searchInput.addEventListener('keydown', function(event) {
   }
 });
 
+var locationDetails = {
+  "place19": {
+    address: "Baskin Engineering Loop",
+    mapLink: "https://goo.gl/maps/nVEbgL1cd8pe8MEWA",
+    menuLink: "https://www.instagram.com/p/CVQ5DeyP8Ex/?igshid=MmJiY2I4NDBkZg%3D%3D",
+    hours: "Mon - Fri: 11am - 3pm",
+  },
+  "place3": {
+    address: "Oakes Cafe, Santa Cruz, CA 95064",
+    mapLink: "https://goo.gl/maps/TmFWKUHKdrPTLvMb6",
+    menuLink: "https://nutrition.sa.ucsc.edu/shortmenu.aspx?sName=UC+Santa+Cruz+Dining&locationNum=23&locationName=Oakes+Cafe&naFlag=1",
+    hours: "Mon - Thur: 8am - 8pm\nFri: 8am - 2pm",
+    
+  }
+}
+
 // Get all the place icons
-var placeIcons = document.querySelectorAll('.place-icon');
+var placeIcons = document.getElementsByClassName('place-icon');
+var detailsElement = document.getElementById('locationDetails');
+var locationAddress = document.getElementById('locationAddress');
+var locationMenu = document.getElementById('locationMenu');
+var locationHours = document.getElementById('locationHours');
+var closeDetailsButton = document.getElementById('closeLocationDetails');
+
+closeDetailsButton.addEventListener('click', () => {
+  detailsElement.style.display = 'none';
+});
 
 // Attach a click event listener to each icon
-placeIcons.forEach(function(icon) {
-  var placeId = icon.getAttribute('data-place-id');
-  icon.addEventListener('click', function() {
-    // Call a function and pass the placeId as an argument
-    showPlaceDescription(placeId);
+for (icon of placeIcons) {
+  const currentIcon = icon;
+  currentIcon.addEventListener('click', function() {
+    var placeId = currentIcon.getAttribute('data-place-id');
+    console.log(placeId)
+    const details = locationDetails[placeId];
+    locationAddress.text = details.address;
+    locationAddress.href = details.mapLink;
+    locationMenu.href = details.menuLink;
+    locationHours.innerText = details.hours;
+
+    detailsElement.style.display = 'block';
   });
-});
-
-// Function to handle displaying the place description
-function showPlaceDescription(placeId) {
-  // Retrieve the place information based on the placeId
-  var place = getPlaceById(placeId);
-
-  // Display the place description using the retrieved place object
-  // Example: Update the DOM with the place details
-  var descriptionContainer = document.getElementById('descriptionContainer');
-  descriptionContainer.innerHTML = '<h2>' + place.name + '</h2>' +
-                                   '<p>' + place.description + '</p>' +
-                                   '<img src="' + place.imageURL + '" alt="' + place.name + '">';
-
-  // Show the description container
-  descriptionContainer.style.display = 'block';
-}
-
-// Helper function to retrieve place information by ID
-function getPlaceById(placeId) {
-  // Perform a lookup or fetch the place information using the placeId
-  // Return the place object with details
-}
-
-
-
-// Event listener for the icons of places
-var placeIcons = document.querySelectorAll('.place-icon');
-placeIcons.forEach(function(icon) {
-  icon.addEventListener("click", function() {
-    var placeId = icon.getAttribute('data-place-id');
-    var place = getPlaceById(placeId);
-    showPlaceDescription(place);
-  });
-});
-
-// Helper function to get place by ID
-function getPlaceById(placeId) {
-  // Code to retrieve place information from data based on placeId
-  // Return the place object
-}
+};
 
 // Helper function to filter places
 function filterPlaces(places, filters) {
   // Code to filter places based on filters
   // Return the filtered places
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
