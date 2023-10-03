@@ -14,7 +14,15 @@
 
 <body>
     <div class="content">
-        <div class="title"></div><span>UCSC Food Map</span>
+        <div class="title">
+            <span>UCSC Food Map</span>
+        </div>
+        <div class="nutrition-api">
+            <input type="text" id="keywordInput" placeholder="Keyword">
+            <input type="text" id="categoryInput" placeholder="Category">
+            <button onclick="performSearch()">Search</button>
+            <div id="result"></div>
+            
         <div class="base">
         </div>
         <div class="f">
@@ -121,11 +129,6 @@
         <div class="grow c10-dhall place-icon" data-place-id="place4">
             <button type="png">
                 <img src="./images/c10-dhall.png" alt="buttonpng">
-            </button>
-        </div>
-        <div class="grow perksuc place-icon" data-place-id="place5">
-            <button type="png">
-                <img src="./images/cafe.png" alt="cafepng">
             </button>
         </div>
         <div class="grow perksbe place-icon" data-place-id="place6">

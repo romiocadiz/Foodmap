@@ -70,30 +70,30 @@ span {
   background-position: center;
   background-size: contain;
   position: fixed;
-  top: 60%;
+  top: 70%;
   left: 55%;
 }
 
 .bakery {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 80px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 33%;
-  left: 50%;
+  top: 41%;
+  left: 48%;
 }
 
 .oakes-cafe {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 90px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 69%;
-  left: 40%;
+  top: 66%;
+  left: 34%;
 }
 
 .c10-dhall {
@@ -103,8 +103,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 12%;
-  left: 62%;
+  top: 16%;
+  left: 56%;
 }
 
 .global-cafe {
@@ -114,7 +114,7 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 54%;
+  top: 56%;
   left: 48%;
 }
 
@@ -125,8 +125,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 38%;
-  left: 63%;
+  top: 40%;
+  left: 65%;
 }
 
 .crown-dhall {
@@ -147,8 +147,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 31%;
-  left: 75%;
+  top: 34%;
+  left: 78%;
 }
 
 .merrill-market {
@@ -158,19 +158,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 17%;
+  top: 15%;
   left: 76%;
-}
-
-.perksuc {
-  width: 90px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
-  position: fixed;
-  top: 12%;
-  left: 57%;
 }
 
 .perksbe {
@@ -181,7 +170,7 @@ span {
   background-size: contain;
   position: fixed;
   top: 16%;
-  left: 40%;
+  left: 38%;
 }
 
 .perksps {
@@ -191,8 +180,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 18%;
-  left: 26%;
+  top: 36%;
+  left: 42%;
 }
 
 .perksem {
@@ -202,8 +191,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 35%;
-  left: 40%;
+  top: 32%;
+  left: 58%;
 }
 
 .porter-dhall {
@@ -224,7 +213,7 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 49%;
+  top: 50%;
   left: 20%;
 }
 
@@ -235,8 +224,8 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 45%;
-  left: 63%;
+  top: 48%;
+  left: 65%;
 }
 
 .snb {
@@ -246,19 +235,19 @@ span {
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 15%;
-  left: 47%;
+  top: 18%;
+  left: 44%;
 }
 
 .togos {
-  width: 120px;
-  height: 90px;
+  width: 130px;
+  height: 70px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
   position: fixed;
-  top: 30%;
-  left: 56%;
+  top: 34%;
+  left: 48%;
 }
 
 button {
@@ -385,4 +374,8 @@ button {
   font-size: 18px;
   line-height: 18px;
   color: #696666;
+}
+
+div.nutrition-api{
+  padding-left: 50px;
 }
